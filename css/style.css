@@ -256,6 +256,26 @@ li.move-right {
 }
 
 @media screen and (max-width: 985px) {
+	.landing-left {
+		width: 100%;
+	}
+
+	.landing-left-background {
+		opacity: 0.5;
+	}
+
+	.header-text {
+		text-align: center;
+	}
+	.header-text h1 {
+		font-size: 400%;
+	}
+	.header-text h3 {
+		font-size: 150%;
+	}
+}
+
+@media screen and (max-width: 985px) {
 	header {
 		position: fixed;
 		background-color: white;
@@ -466,6 +486,24 @@ li.move-right {
 
 .what-are-we-doing-to-help .section-img img {
 	margin: auto auto;
+}
+
+.we-need-your-support .section-img {
+	width: 60%;
+}
+
+.we-need-your-support .section-info {
+	width: 35%;
+}
+
+@media screen and (max-width: 800px) {
+	.we-need-your-support .section-img {
+		width: 100%;
+	}
+
+	.we-need-your-support .section-info {
+		width: 100%;
+	}
 }
 
 .testimonial-section {
@@ -817,8 +855,9 @@ footer {
 .footer-bottom {
 	width: 100%;
 	background-color: rgb(50, 50, 50);
-	height: 40px;
 	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	text-align: center;
 	line-height: 40px;
 	display: flex;
@@ -851,12 +890,12 @@ footer {
 
 .footer-cta {
 	margin: 0 auto;
-	background-color: rgba(255, 255, 255, 0.509);
-	color: var(--primary-color);
+	color: white;
 }
 
 .footer-social-links {
-	margin: 0 auto;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .footer-social-links a {
@@ -868,4 +907,22 @@ footer {
 
 .footer-3 h2 {
 	margin-bottom: 1vh;
+}
+
+@media screen and (max-width: 800px) {
+	.footer-inner {
+		flex-direction: column;
+	}
+
+	.footer-1,
+	.footer-2,
+	.footer-3 {
+		padding-top: 5vh;
+		padding-bottom: 5vh;
+		width: 100%;
+	}
+
+	.footer-social-links {
+		margin-top: 4vh;
+	}
 }

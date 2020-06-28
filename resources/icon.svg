@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1419" height="494" viewBox="0 0 1419 494">
+  <defs>
+    <clipPath id="clip-Logo">
+      <rect width="1419" height="494"/>
+    </clipPath>
+  </defs>
+  <g id="Logo" clip-path="url(#clip-Logo)">
+    <rect width="1419" height="494" fill="#fff"/>
+    <g id="Group_2" data-name="Group 2" transform="translate(-232 -273.409)">
+      <path id="Path_1" data-name="Path 1" d="M3156.245,902.471V623.281h153.8" transform="translate(-2658.658 -238.944)" fill="none" stroke="#bf0000" stroke-linecap="round" stroke-linejoin="round" stroke-width="45"/>
+      <path id="Path_2" data-name="Path 2" d="M3011.881,624.985l125.685,138.207L3011.881,903.228" transform="translate(-2671.836 -240.648)" fill="none" stroke="#bf0000" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="45"/>
+      <path id="Path_3" data-name="Path 3" d="M3175,734.45h100.975" transform="translate(-2659.812 -213.821)" fill="none" stroke="#bf0000" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="45"/>
+    </g>
+    <g id="Group_4" data-name="Group 4" transform="translate(90 -304)">
+      <g id="Group_3" data-name="Group 3" transform="translate(415 335)">
+        <text id="Karing_Fr_ntiers" data-name="Karing
+Fr  ntiers" transform="translate(0 188)" fill="#2c2c2c" font-size="188" font-family="Quicksand" font-weight="700"><tspan x="0" y="0">Karing</tspan><tspan x="0" y="198" xml:space="preserve">Fr  ntiers</tspan></text>
+        <circle id="Ellipse_1" data-name="Ellipse 1" cx="49.5" cy="49.5" r="49.5" transform="translate(189 291)" fill="#2c2c2c"/>
+      </g>
+      <path id="heart-outline" d="M102.24,80c-8.594,0-12.831,8.473-12.831,8.473S85.173,80,76.578,80A12.8,12.8,0,0,0,63.991,92.816c-.146,14.474,11.482,24.767,24.227,33.417a2.118,2.118,0,0,0,2.383,0c12.743-8.65,24.371-18.943,24.227-33.417A12.8,12.8,0,0,0,102.24,80Z" transform="translate(563.326 574.773)" fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

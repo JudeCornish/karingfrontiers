@@ -20,7 +20,9 @@
 			href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Quicksand:wght@300;400;500;600;700&display=swap"
 			rel="stylesheet"
 		/>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
 		<title>Karing Frontiers</title>
 	</head>
 	<body>
@@ -88,7 +90,7 @@
 			</div>
 		</div>
 
-		<div class="wrapper section who-section">
+		<div class="wrapper section who-section show-on-scroll is-visible">
 			<div class="who-are-the-karen-people">
 				<div class="box1"></div>
 				<div class="section-row">
@@ -130,7 +132,7 @@
 			</div>
 		</div>
 
-		<div class="wrapper section">
+		<div class="wrapper section show-on-scroll is-visible">
 			<div class="what-are-we-doing-to-help">
 				<div class="box2"></div>
 				<div class="section-row">
@@ -166,7 +168,7 @@
 			</div>
 		</div>
 
-		<div class="wrapper testimonial-section">
+		<div class="wrapper testimonial-section show-on-scroll is-visible">
 			<div class="testimonials">
 				<div class="testimonial-card">
 					<div class="testimonials-inner">
@@ -228,7 +230,7 @@
 			</div>
 		</div>
 
-		<div class="wrapper goal-section">
+		<div class="wrapper goal-section show-on-scroll is-visible">
 			<div class="our-goal">
 				<div class="box1"></div>
 				<div class="section-row">
@@ -265,7 +267,7 @@
 			</div>
 		</div>
 
-		<div class="wrapper">
+		<div class="wrapper show-on-scroll is-visible">
 			<div class="animated-icons">
 				<div id="animated-book" class="animated-book">
 					<div class="animation-container">
@@ -276,7 +278,10 @@
 						one student for a year.
 					</p>
 				</div>
-				<div id="animated-heart" class="animated-heart">
+				<div
+					id="animated-heart"
+					class="animated-heart show-on-scroll is-visible"
+				>
 					<div class="animation-container">
 						<div id="animated-heart-img" class="animated-heart-img"></div>
 					</div>
@@ -288,7 +293,7 @@
 			</div>
 		</div>
 
-		<div class="wrapper section">
+		<div class="wrapper section show-on-scroll is-visible">
 			<div class="we-need-your-support">
 				<div class="box2"></div>
 				<div class="section-row">
@@ -335,7 +340,7 @@
 			</div>
 		</div>
 
-		<div class="wrapper">
+		<div class="wrapper show-on-scroll is-visible">
 			<div class="progress-bars">
 				<div class="nineteen-bar">
 					<h2>2019</h2>
@@ -345,7 +350,7 @@
 						goal of $10,966 (USD).
 					</p>
 					<div class="progress-bar-container">
-						<div class="nineteen-progress-bar"></div>
+						<div class="nineteen-progress-bar show-on-scroll is-visible"></div>
 					</div>
 
 					<div class="tallies">
@@ -362,7 +367,7 @@
 						cause.
 					</p>
 					<div class="progress-bar-container">
-						<div class="twenty-progress-bar"></div>
+						<div class="twenty-progress-bar show-on-scroll is-visible"></div>
 					</div>
 
 					<div class="tallies">
@@ -376,7 +381,7 @@
 
 		<footer>
 			<div class="footer-container">
-				<div class="wrapper">
+				<div class="footer-wrapper">
 					<div class="footer-inner">
 						<div class="footer-1">
 							<img src="resources/img/logo-white.svg" />
@@ -416,7 +421,7 @@
 				</div>
 			</div>
 			<div class="footer-bottom">
-				<div class="wrapper">
+				<div class="footer-wrapper">
 					<p>
 						Site created for free with <ion-icon name="heart"></ion-icon> by
 						Jude Cornish &copy

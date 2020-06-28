@@ -395,7 +395,6 @@ li.move-right {
 	margin: auto auto;
 	width: 100%;
 	object-fit: cover;
-	height: 40vh;
 }
 
 .section-info {
@@ -436,7 +435,12 @@ li.move-right {
 }
 
 .who-are-the-karen-people .section-img {
-	width: 42.5%;
+	width: 40%;
+}
+
+.who-are-the-karen-people .section-img img {
+	margin: auto auto;
+	height: 36vh;
 }
 
 .who-are-the-karen-people .section-info {

@@ -28,3 +28,21 @@ $(function () {
 		],
 	});
 });
+
+var animation = bodymovin.loadAnimation({
+	container: document.getElementById("animated-book-img"), // Required
+	path: "/resources/img/books.json", // Required
+	renderer: "svg", // Required
+	loop: true, // Optional
+	autoplay: true, // Optional
+	name: "Hello World", // Name for future reference. Optional.
+});
+
+var animation = bodymovin.loadAnimation({
+	container: document.getElementById("animated-heart-img"), // Required
+	path: "/resources/img/heart2.json", // Required
+	renderer: "svg", // Required
+	loop: true, // Optional
+	autoplay: true, // Optional
+	name: "Hello World", // Name for future reference. Optional.
+});

@@ -967,6 +967,11 @@ footer {
 	margin-bottom: 2vh;
 }
 
+.page-header-text {
+	width: 85%;
+	margin: 0 auto;
+}
+
 @media screen and (max-width: 800px) {
 	.page-header {
 		height: 20vh;
@@ -974,6 +979,10 @@ footer {
 
 	.page-header h1 {
 		font-size: 200%;
+	}
+
+	.page-header p {
+		font-size: 80%;
 	}
 }
 

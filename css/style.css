@@ -1207,9 +1207,14 @@ footer {
 	border-left: 2px solid var(--primary-color);
 }
 
+.mrmjc-sidebar img {
+	width: 100%;
+	margin-bottom: 2vh;
+}
+
 .sidebar-header {
 	color: black;
-	margin-bottom: 1vh;
+	margin-bottom: 2vh;
 }
 
 .sidebar-header h2 {
@@ -1265,6 +1270,7 @@ footer {
 
 .objectives-list li {
 	line-height: 1.6;
+	margin-bottom: 10px;
 }
 
 .abbreviations-table {
@@ -1319,10 +1325,11 @@ footer {
 	overflow: hidden;
 	width: 100%;
 	margin-bottom: 5vh;
+	margin-top: 2vh;
 }
 
 .fixtures-table thead tr {
-	background-color: var(--primary-color);
+	background: linear-gradient(to right, rgb(255, 155, 155), #ff5151);
 	text-align: left;
 	color: white;
 }
@@ -1333,7 +1340,7 @@ footer {
 
 .fixtures-table th,
 .fixtures-table td {
-	padding: 13px 10px;
+	padding: 25px 10px;
 }
 
 .fixtures-table th {
@@ -1355,7 +1362,7 @@ footer {
 }
 
 .fixtures-table tbody tr:last-of-type {
-	border-bottom: 1px solid var(--main-red);
+	border-bottom: 1px solid var(--primary-color);
 }
 
 @media only screen and (max-width: 760px),
@@ -1375,6 +1382,10 @@ footer {
 		position: absolute;
 		top: -9999px;
 		left: -9999px;
+	}
+
+	.fixtures-table td:last-child {
+		text-align: left;
 	}
 
 	.fixtures-table tr {
@@ -1438,4 +1449,17 @@ footer {
 
 .course-table {
 	margin-top: 4vh;
+	line-height: 1.6;
+}
+
+.course h2 {
+	margin-bottom: 0.5vh;
+	margin-top: 3vh;
+	font-size: 150%;
+}
+
+@media screen and (min-width: 800px) {
+	.courses-mobile {
+		display: none;
+	}
 }

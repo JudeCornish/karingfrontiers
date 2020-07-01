@@ -972,9 +972,23 @@ footer {
 	margin: 0 auto;
 }
 
+/* The progress container (grey background) */
+.progress-container {
+	width: 100%;
+	height: 2px;
+	background: white;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+	height: 2px;
+	background: linear-gradient(to right, rgb(255, 155, 155), #ff5151);
+	width: 0%;
+}
+
 @media screen and (max-width: 800px) {
 	.page-header {
-		height: 20vh;
+		height: 25vh;
 	}
 
 	.page-header h1 {
@@ -1180,4 +1194,248 @@ footer {
 .exec-socials a:hover {
 	color: var(--main-red);
 	transition: 0.25s all ease-in-out;
+}
+
+.mrmjc-sidebar {
+	width: 30%;
+	align-self: start;
+	top: 12vh;
+	position: sticky;
+	display: flex;
+	padding-left: 20px;
+	flex-direction: column;
+	border-left: 2px solid var(--primary-color);
+}
+
+.sidebar-header {
+	color: black;
+	margin-bottom: 1vh;
+}
+
+.sidebar-header h2 {
+	font-size: 175%;
+}
+
+@media screen and (max-width: 800px) {
+	.mrmjc-sidebar {
+		width: 100%;
+	}
+}
+
+.mrmjc-container {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.sidebar-cta {
+	margin-top: 2vh;
+}
+
+.sidebar-cta a {
+	color: black;
+}
+
+.mrmjc-main {
+	width: 65%;
+}
+
+.mrmjc-main h2 {
+	font-size: 175%;
+	margin-bottom: 2vh;
+}
+
+.mrmjc-main h3 {
+	font-size: 125%;
+	margin-bottom: 1vh;
+}
+
+.mrmjc-main p {
+	margin-bottom: 1vh;
+}
+
+.main-container {
+	margin-bottom: 4vh;
+}
+
+.objectives-list {
+	margin-left: 13px;
+}
+
+.objectives-list li {
+	line-height: 1.6;
+}
+
+.abbreviations-table {
+	width: 50%;
+	white-space: nowrap;
+}
+
+.abbreviations-table td {
+	padding-top: 10px;
+	padding-right: 20px;
+}
+
+.tables-container {
+	display: flex;
+}
+
+.margin-bottom-2vh {
+	margin-bottom: 2vh;
+}
+
+@media screen and (max-width: 800px) {
+	.mrmjc-container {
+		flex-direction: column;
+	}
+
+	.mrmjc-sidebar {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		padding-left: 0;
+		top: 0;
+		border: 0px;
+		margin-bottom: 4vh;
+	}
+
+	.mrmjc-main {
+		width: 100%;
+	}
+
+	.tables-container {
+		flex-direction: column;
+	}
+
+	.abbreviations-table {
+		width: 0%;
+	}
+}
+
+.fixtures-table {
+	border-collapse: collapse;
+	border-radius: 5px 5px 0 0;
+	overflow: hidden;
+	width: 100%;
+	margin-bottom: 5vh;
+}
+
+.fixtures-table thead tr {
+	background-color: var(--primary-color);
+	text-align: left;
+	color: white;
+}
+
+.fixtures-table tbody tr {
+	text-align: left;
+}
+
+.fixtures-table th,
+.fixtures-table td {
+	padding: 13px 10px;
+}
+
+.fixtures-table th {
+	font-weight: 500;
+	letter-spacing: 1px;
+	white-space: nowrap;
+}
+
+.fixtures-table td:last-child {
+	text-align: center;
+}
+
+.fixtures-table tbody tr {
+	border-bottom: 1px solid #dddddd;
+}
+
+.fixtures-table tbody tr:nth-of-type(even) {
+	background-color: #f4f4f4;
+}
+
+.fixtures-table tbody tr:last-of-type {
+	border-bottom: 1px solid var(--main-red);
+}
+
+@media only screen and (max-width: 760px),
+	(min-device-width: 768px) and (max-device-width: 1024px) {
+	/* Force table to not be like tables anymore */
+	.fixtures-table table,
+	.fixtures-table thead,
+	.fixtures-table tbody,
+	.fixtures-table th,
+	.fixtures-table td,
+	.fixtures-table tr {
+		display: block;
+	}
+
+	/* Hide table headers (but not display: none;, for accessibility) */
+	.fixtures-table thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+
+	.fixtures-table tr {
+		border: 1px solid var(--main-red);
+		margin-bottom: 2vh;
+		border-radius: 10px;
+	}
+
+	.fixtures-table td {
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee;
+		position: relative;
+		padding-left: 50%;
+		vertical-align: middle;
+		border-radius: 5px;
+	}
+
+	.fixtures-table td:before {
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		left: 15px;
+		width: 20%;
+		padding-right: 10px;
+		white-space: nowrap;
+	}
+
+	/*
+	Label the data
+	*/
+	.fixtures-table td:nth-of-type(1):before {
+		font-weight: 500;
+		content: "Course name:";
+	}
+	.fixtures-table td:nth-of-type(2):before {
+		font-weight: 500;
+		content: "Course description:";
+	}
+	.fixtures-table td:nth-of-type(4):before {
+		content: "Course credits:";
+		font-weight: 500;
+	}
+
+	.fixtures-table td.course-summary {
+		display: none;
+	}
+
+	.fixtures-table {
+		border-radius: 0px 0px 0 0;
+	}
+
+	.fixtures-table tbody tr:last-of-type {
+		border-bottom: 1px solid #dddddd;
+	}
+}
+
+.no-margin {
+	margin: 0;
+}
+
+.course-table {
+	margin-top: 4vh;
 }
